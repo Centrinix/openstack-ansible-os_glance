@@ -302,6 +302,7 @@ glance_uwsgi_tls:
 
 ## Tunable overrides
 glance_glance_api_paste_ini_overrides: {}
+glance_rootwrap_conf_overrides: {}
 glance_glance_api_conf_overrides: {}
 glance_glance_cache_conf_overrides: {}
 glance_glance_manage_conf_overrides: {}
