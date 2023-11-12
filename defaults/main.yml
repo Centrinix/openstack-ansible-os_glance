@@ -61,7 +61,7 @@ glance_system_shell: /bin/false
 glance_system_comment: glance system user
 glance_system_user_home: "/var/lib/{{ glance_system_user_name }}"
 
-## Manually specified nova UID/GID
+## Manually specified glance UID/GID
 # Deployers can specify a UID for the glance user as well as the GID for the
 # glance group if needed. This is commonly used in environments where shared
 # storage is used, such as NFS or GlusterFS, and glance UID/GID values must be
